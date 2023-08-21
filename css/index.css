@@ -1,0 +1,184 @@
+@media screen and (min-width: 1920px) {
+  .screen_size{
+    max-width: calc(66.66666666666666% - 6rem); 
+  }
+  
+}
+
+*{
+  color: white;
+}
+
+body{
+  background-color: black;
+  margin: 0;
+  word-break: keep-all;
+}
+
+.border_line{
+  border: 4px solid #232323;
+}
+
+.title-container, .advertisement, .enjoy_withTV, .enjoy_everywhere, .enjoy_kids, .enjoy_offline, .questions {
+  margin: auto;
+  max-width: calc(66.66666666666666% - 6rem);
+  padding: 63.75px 0px;
+}
+
+.questions{
+  text-align: center;
+}
+
+.quest_buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.eve_ani{
+  position: relative;
+  background-color: transparent;
+}
+
+.quest{
+  border: none;
+  background-color: #232323;
+  height: 89.25px;
+  margin-bottom: 8.5px;
+  font-size: 25.5px;
+  text-align: left;
+  padding: 25.5px;
+  cursor: pointer;
+}
+
+.div_title{
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.div_text{
+  font-size: 25.5px;
+  font-weight: 400;
+  margin: 17px 0px 0px;
+}
+
+.email_input{
+  width: 442.85px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  height: 22.3px;
+  padding: 25.5px 17px 8.5px;
+  border: 1 solid hsla(0,0%,90%,.77);
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.25rem;
+}
+
+.email_button {
+  background-color: #E50914;
+  border: 0px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: auto;
+  min-height: 3.5rem;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.enjoy_offline{
+  display: flex;
+  flex-direction: row;
+}
+
+.enjoy_txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.off_ani{
+  position: relative;
+  top: -150px;
+  left: 135px;
+  background-color: transparent;
+}
+
+.eve_ani{
+  position: relative;
+  background-color: transparent;
+  top: -430px;
+  left: 120px;
+  height: auto;
+}
+
+.TV_ani{
+  position: relative;
+  background-color: transparent;
+  top: -383px;
+  left: 85px;
+}
+
+.ad_title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.ad_text{
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.ad_detailbtn{
+  border: none;
+  color: #448ef4;
+  text-decoration: underline;
+  font-size: 17px;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 8px;
+  padding: 0;
+  align-items: center;
+  background-color: transparent;
+}
+
+.advertisement{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: radial-gradient(
+    51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%
+  );
+  padding: 22px;
+  height: 100.8px;
+  position: relative;
+  bottom: 400px;
+}
+
+.ad_img{
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ad_txt{
+  background-color: transparent;
+  text-align: left;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

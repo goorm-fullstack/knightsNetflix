@@ -1,0 +1,60 @@
+.footer{
+  margin: auto;
+  max-width: calc(83.33333333333334% - 6rem);
+  padding: 63.75px 0px;
+}
+
+.abli_list{
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 14.875px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 0.75rem;
+}
+
+.language{
+  height: 59.5px;
+  border-radius: 0.25rem;
+}
+
+.about_netflix{
+  margin: 0;
+  padding: 12.75px 0px;
+}
+
+.ab_link{
+  color: hsla(0,0%,90%,.77);
+}
+
+.about2_p{
+  margin: 0;
+  color: hsla(0,0%,90%,.77);
+  font-size: 17px;
+}
+
+.ftc{
+  color: hsla(0,0%,90%,.77);
+  text-decoration: none;
+  font-size: 12.75px;
+  height: 22.4px;
+}
+
+#lang{
+  border: none;
+  padding: 0;
+}
+
+.language{
+  border: 1px solid hsla(0,0%,90%,.77);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lang_svg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
